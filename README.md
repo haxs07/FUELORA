@@ -1,113 +1,73 @@
-FUELORA
-Location-Based Highway Roadside Assistance Mobile Application
-Author: Harish T.
+# Welcome to your Lovable project
 
-About the Project
-FUELORA is a mobile application designed to help drivers find roadside assistance during unexpected vehicle emergencies, especially while travelling on highways. It provides a convenient platform to locate nearby fuel stations and mechanic services using the user's current location.
+## Project info
 
-The application aims to reduce the difficulty of finding suitable assistance in unfamiliar areas by combining service discovery, GPS technology, and map-based navigation in one platform.
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-Key Features
-Fuel Assistance: Helps users find nearby fuel stations when their vehicle runs low on fuel.
+## How can I edit this code?
 
-Mechanic Assistance: Helps users locate nearby mechanics for vehicle-related problems.
+There are several ways of editing your application.
 
-GPS-Based Location: Uses the device's current location to identify nearby service providers.
+**Use Lovable**
 
-Google Maps Integration: Displays service-provider locations on a map.
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Navigation Support: Provides directions to selected service-provider locations.
+Changes made via Lovable will be committed automatically to this repo.
 
-Unified Platform: Combines fuel and mechanic assistance in a single mobile application.
+**Use your preferred IDE**
 
-Technologies Used
-Component	Technology
-Development Environment	Android Studio
-Frontend	Flutter
-Programming Language	Dart
-Backend	Node.js
-Backend Framework	Express.js
-Database	MongoDB
-Maps and Location	Google Maps API
-Platform	Android
-Application Workflow
-Open the FUELORA mobile application.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Select the required assistance category: Fuel Assistance or Mechanic Assistance.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Allow location access when requested.
+Follow these steps:
 
-The application uses the current location to search for nearby service providers.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Relevant provider information is retrieved through the backend.
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Nearby providers are displayed on the map.
+# Step 3: Install the necessary dependencies.
+npm i
 
-Select a provider to view its available details.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-Access directions to the selected location.
+**Edit a file directly in GitHub**
 
-Project Structure
-The project contains the mobile application, backend services, database integration, and supporting configuration files. The source code is organized to separate the frontend and backend components for easier maintenance and development.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Installation and Setup
-Prerequisites
-Android Studio
+**Use GitHub Codespaces**
 
-Flutter SDK
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Dart SDK
+## What technologies are used for this project?
 
-Node.js and npm
+This project is built with:
 
-MongoDB
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Google Maps API key
+## How can I deploy this project?
 
-Frontend Setup
-Clone the repository.
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-Open the Flutter project in Android Studio.
+## Can I connect a custom domain to my Lovable project?
 
-Install the required Flutter dependencies.
+Yes, you can!
 
-Configure the necessary API keys and permissions.
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Run the application on an Android emulator or physical device.
-
-Backend Setup
-Navigate to the backend directory.
-
-Install the required Node.js dependencies.
-
-Configure the MongoDB connection.
-
-Set up the required environment variables.
-
-Start the Express.js server.
-
-Note: Update the setup instructions according to the actual folder structure and configuration of the project.
-
-Project Objective
-The main objective of FUELORA is to provide a simple and accessible solution for locating roadside assistance during highway travel. By integrating fuel assistance, mechanic services, GPS, and map navigation, the application aims to make service discovery more convenient for drivers.
-
-Future Enhancements
-Addition of towing and vehicle recovery services.
-
-Battery assistance and tyre replacement services.
-
-Real-time service-provider availability.
-
-Direct service requests.
-
-User ratings and feedback.
-
-Expanded service-provider coverage.
-
-Author
-Harish T.
-
-Developed as part of a Problem-Based Learning (PBL) project.
-
-License
-This project is developed for academic and educational purposes.
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
